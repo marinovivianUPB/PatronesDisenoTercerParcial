@@ -1,4 +1,4 @@
-package proxy.template;
+package patronesdisenotercerparcial.templates.proxy;
 
 
 public class RealSubject implements ISubject {

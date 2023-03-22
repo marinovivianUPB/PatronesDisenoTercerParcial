@@ -1,4 +1,4 @@
-package composite.tempalte;
+package patronesdisenotercerparcial.templates.composite;
 
 public abstract class Component {
     private String attribute1;

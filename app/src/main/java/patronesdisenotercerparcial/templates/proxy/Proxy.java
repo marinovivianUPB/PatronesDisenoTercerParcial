@@ -1,4 +1,4 @@
-package proxy.template;
+package patronesdisenotercerparcial.templates.proxy;
 
 public class Proxy implements ISubject{
 

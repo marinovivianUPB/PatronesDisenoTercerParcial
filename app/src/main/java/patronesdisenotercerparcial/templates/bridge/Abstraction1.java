@@ -1,4 +1,4 @@
-package bridge.template;
+package patronesdisenotercerparcial.templates.bridge;
 
 public class Abstraction1 implements IAbstraction{
     private Implementor implementor;

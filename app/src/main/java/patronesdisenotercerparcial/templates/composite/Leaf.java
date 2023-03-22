@@ -1,4 +1,4 @@
-package composite.tempalte;
+package patronesdisenotercerparcial.templates.composite;
 
 public class Leaf extends Component{
     public Leaf(String attribute1, String attribute2) {

@@ -1,4 +1,4 @@
-package composite.tempalte;
+package patronesdisenotercerparcial.templates.composite;
 
 import java.util.ArrayList;
 import java.util.List;

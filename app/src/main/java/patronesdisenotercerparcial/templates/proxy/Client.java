@@ -1,4 +1,4 @@
-package proxy.template;
+package patronesdisenotercerparcial.templates.proxy;
 
 public class Client {
     public static void main(String[]args){

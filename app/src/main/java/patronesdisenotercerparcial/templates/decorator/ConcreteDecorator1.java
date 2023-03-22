@@ -1,4 +1,4 @@
-package decorator.template;
+package patronesdisenotercerparcial.templates.decorator;
 
 public class ConcreteDecorator1 extends Decorator{
 

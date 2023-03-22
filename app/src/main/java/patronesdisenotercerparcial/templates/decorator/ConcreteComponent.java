@@ -1,4 +1,4 @@
-package decorator.template;
+package patronesdisenotercerparcial.templates.decorator;
 
 public class ConcreteComponent implements Component{
     @Override

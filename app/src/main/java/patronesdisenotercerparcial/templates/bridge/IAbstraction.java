@@ -1,4 +1,4 @@
-package bridge.template;
+package patronesdisenotercerparcial.templates.bridge;
 
 public interface IAbstraction {
     void operation1();

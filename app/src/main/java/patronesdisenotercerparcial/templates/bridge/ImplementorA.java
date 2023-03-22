@@ -1,4 +1,4 @@
-package bridge.template;
+package patronesdisenotercerparcial.templates.bridge;
 
 public class ImplementorA implements Implementor{
     @Override
