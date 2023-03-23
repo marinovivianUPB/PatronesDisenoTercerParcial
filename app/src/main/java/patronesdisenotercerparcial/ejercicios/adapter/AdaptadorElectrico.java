@@ -16,8 +16,8 @@ public class AdaptadorElectrico implements IAdapter {
     }
 
     @Override
-    public void llenarGasolina() {
-        automovilElectrico.cargarBateria();
+    public void llenarGasolina(int capacidad) {
+        automovilElectrico.cargarBateria(capacidad);
     }
 
     @Override

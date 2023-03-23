@@ -36,8 +36,14 @@ public abstract class Automovil implements IAdapter{
         return (new Random().nextInt(101)+1);
     }
     @Override
-    public void llenarGasolina() {
-        this.setCapacidad(new Random().nextInt(101));
+    public void llenarGasolina(int capacidad) {
+        if(capacidad >= 0 && capacidad <=100 ){
+            this.setCapacidad(capacidad);
+        } else{
+            System.out.println("------------------------");
+            System.out.println("EL TANQUE NO PERMITE ESA CAPACIDAD");
+        }
+        
     }
     public String getTipo() {
         return tipo;

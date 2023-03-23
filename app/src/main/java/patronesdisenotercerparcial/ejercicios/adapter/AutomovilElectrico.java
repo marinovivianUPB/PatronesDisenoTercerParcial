@@ -40,8 +40,19 @@ public abstract class AutomovilElectrico {
         this.tipo = tipo;
     }
 
-    public void cargarBateria(){
-        this.setBateria((new Random().nextInt(51))*2);
+    public void cargarBateria(int capacidad){
+        if(capacidad >= 0 && capacidad <=100 ){
+            if(capacidad % 2==0){
+                this.setBateria(capacidad);
+            } else{
+                System.out.println("------------------------");
+                System.out.println("LA BATERIA NO PERMITE ESA CAPACIDAD");
+            }
+           
+        } else{
+            System.out.println("------------------------");
+            System.out.println("LA BATERIA NO PERMITE ESA CAPACIDAD");
+        }
     }
 
     public int estadoDeElectricidad(){
